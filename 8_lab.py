@@ -2,7 +2,7 @@ import cv2
 
 
 def cut_the_square():
-    image = cv2.imread('pics/variant_8.jpg')
+    image = cv2.imread('variant_8.jpg')
 
     height, width = image.shape[:2]
     center_x, center_y = width // 2, height // 2
