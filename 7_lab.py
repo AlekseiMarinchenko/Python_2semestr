@@ -5,7 +5,6 @@ from translate import Translator
 def response_analysis(response):
     if response.status_code == 200:
         print('Everything is OK!')
-        #write_json(response.json())
     else:
         print(response)
 
